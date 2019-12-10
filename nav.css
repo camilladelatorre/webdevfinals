@@ -1,0 +1,72 @@
+body{
+margin:0;
+padding:0;
+display: flex;
+
+}
+.header{
+color: blue;
+position: absolute;
+right: 75%;
+
+}
+.header h2{
+font-size: 40px;
+position: relative;
+left: 150%;
+
+}
+.header h2:hover{
+color: white;
+}
+.nav{
+font-size: 20px;
+position: absolute;
+left: 90%;
+top: 5%
+}
+
+
+
+.content h1{
+position: absolute;
+direction: column;
+top: 30%;
+left: 20%;
+buttom: 30%;
+color: black;
+font-size: 50px;
+border: solid;
+}
+.content h1:hover{
+background-color: blue;
+color: white;
+}
+.content h2{
+position: absolute;
+direction: column;
+top: 30%;
+left: 40%;
+color: black;
+font-size: 50px;
+border: solid;
+}
+.content h2:hover{
+background-color: green;
+color: white
+}
+.content h3{
+position: absolute;
+direction: column;
+top: 30%;
+left: 60%;
+color: black;
+font-size: 50px;
+border: solid;
+}
+.content h3:hover{
+background-color:red;
+color: white;
+}
+
+
